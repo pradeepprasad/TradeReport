@@ -48,10 +48,12 @@ public class MainExecutor {
 	// 4. Report Generator.
 		 long startTime, endTime, timeElapsed;
 		 startTime = System.nanoTime();
-		 System.out.println("Time now at start - " + System.nanoTime());
+		 //System.out.println("Time now at start - " + System.nanoTime());
+		 System.out.println("Time now at start - " + startTime);
 		 System.out.println(ReportGenerator.reportGenerator(instructions));
 		 endTime = System.nanoTime();
-		 System.out.println("Time now at End - " + System.nanoTime());
+		 //System.out.println("Time now at End - " + System.nanoTime());
+		 System.out.println("Time now at End - " + endTime);
 		 timeElapsed = endTime - startTime;
 		 System.out.println("Time Elapsed - " + timeElapsed);
 		 
