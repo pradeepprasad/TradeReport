@@ -46,9 +46,16 @@ public class MainExecutor {
 		 System.out.println("Arabia Working Days  - "  +  awd.workingDaysMap);
 		 
 	// 4. Report Generator.
-		 System.out.println("Time now at start - " + System.nanoTime());
+		 long startTime, endTime, timeElapsed;
+		 startTime = System.nanoTime();
+		 //System.out.println("Time now at start - " + System.nanoTime());
+		 System.out.println("Time now at start - " + startTime);
 		 System.out.println(ReportGenerator.reportGenerator(instructions));
-		 System.out.println("Time now at End - " + System.nanoTime());
+		 endTime = System.nanoTime();
+		 //System.out.println("Time now at End - " + System.nanoTime());
+		 System.out.println("Time now at End - " + endTime);
+		 timeElapsed = endTime - startTime;
+		 System.out.println("Time Elapsed - " + timeElapsed);
 		 
 	/*// 4.1.Calculate Settlement dates(Arabia and Default) as per business logic.
 	 	System.out.println("After settlement adjustment") ;
