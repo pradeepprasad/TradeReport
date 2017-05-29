@@ -27,13 +27,19 @@ public static Set <Instructions> getDummyInstructios(){
 			new Instructions("Company-C", TradeAction.BUY, .80,Currency.getInstance("SGD"), LocalDate.of(2017, 03, 10),
 					LocalDate.of(2017, 05, 19), 211, 13),
 			
-			new Instructions("Company-D", TradeAction.SALE, .30,Currency.getInstance("AED"), LocalDate.of(2017, 03, 10),
+			new Instructions("Company-D", TradeAction.BUY, .30,Currency.getInstance("AED"), LocalDate.of(2017, 03, 10),
 					LocalDate.of(2017, 05, 26), 212, 14),
 			
-			new Instructions("Company-D", TradeAction.SALE, .30,Currency.getInstance("SAR"), LocalDate.of(2017, 03, 10),
+			new Instructions("Company-E", TradeAction.SALE, .30,Currency.getInstance("SAR"), LocalDate.of(2017, 03, 10),
 					LocalDate.of(2017, 05, 26), 213, 15),
 			
+			new Instructions("Company-D", TradeAction.SALE, .30,Currency.getInstance("SAR"), LocalDate.of(2017, 03, 10),
+					LocalDate.of(2017, 05, 26), 214, 16),
+			
+			new Instructions("Company-F", TradeAction.SALE, .30,Currency.getInstance("SAR"), LocalDate.of(2017, 03, 10),
+					LocalDate.of(2017, 05, 26), 215, 17),
+			
 			new Instructions("Company-E", TradeAction.BUY, .90,Currency.getInstance("SGD"), LocalDate.of(2017, 03, 10),
-					LocalDate.of(2017, 05, 07), 214, 16)
+					LocalDate.of(2017, 05, 07), 216, 18)
 			));											}//Arrays ends here
 }
